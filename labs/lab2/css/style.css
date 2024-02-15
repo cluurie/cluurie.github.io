@@ -1,0 +1,79 @@
+body {
+    font-family: Karla, sans-serif;
+    color: #484848;
+    margin: 0; 
+    padding: 0;
+}
+
+h1 {
+    font-size: 48px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+section p {
+    font-size: 18px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding-inline-start: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+header {
+    background: #FF5A5F;
+    height: 80px;
+}
+
+#logo {
+    height: 80px;
+}
+
+nav {
+    display: inline-block;
+    float: right;
+}
+nav li {
+    display: inline-block;
+    margin-left: 40px;
+    line-height: 80px;
+}
+nav a {
+    color: white;
+    font: 18px;
+    text-decoration: none;
+    cursor: pointer;
+}
+nav a:visited {
+    color: white;
+    font: 18px;
+    text-decoration: none;
+    cursor: pointer;
+}
+nav a:hover {
+    color: white;
+    font: 18px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.content {
+    width: 900px;
+    margin: auto;
+}
+
+section {
+    padding: 350px;
+    border: 1px solid #cccccc;  
+    margin-bottom: 16px;
+}
+
+section img {
+    width: 780px;
+}
