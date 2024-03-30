@@ -1,0 +1,195 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    background-color: #222222;
+    position: fixed;
+    width: 100%;
+    z-index: 100000;
+}
+
+.navbar-inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 20%;
+    margin: 0 0 0 40px;
+    padding: 20px;
+}
+
+.navbar-menu{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-menu-item{
+    font: 20px Hammersmith One;
+    list-style: none;
+    display: flex;
+    white-space: nowrap;
+    margin-left: 56px;
+}
+.navbar-menu-item a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.navbar-menu-item a:hover {
+    color: #EE3C20;
+}
+
+
+.hero-section {
+    background-image: url('C:/Users/terri/OneDrive/Documents/GitHub/cluurie.github.io/midterm/assets/img/herocoffee.png'); /* Add your image path */
+    background-size: cover;
+    background-position: center;
+    height: 500px; /* Adjust height as needed */
+    color: #ffffff; /* Text color */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+}
+
+.button{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    width: 116px;
+    background-color: #EE3C20;
+    color:#FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+
+.content-block {
+    background-color: rgba(34, 34, 34, 0.96); /* Adjust the overlay opacity */
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.about-section{
+    width: 100%;
+    height: 100%;
+    background-color: #FFFFFF;
+    align-items: center;
+}
+
+.columns{
+    display: flex;
+    flex-direction: row;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 160px;
+    padding-right: 160px;
+    justify-content: space-around;
+}
+
+#column-left {
+    padding-right: 124px;
+}
+
+.footer{
+    background-color: #222222;
+    width: 100%;
+    z-index: 100000;
+}
+.footer-inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 0 40px;
+    padding: 20px;
+}
+.footer-menu{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-menu-item{
+    font: 16px Hammersmith One;
+    list-style: none;
+    display: flex;
+    white-space: nowrap;
+    margin-left: 56px;
+}
+.footer-menu-item a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.footer-menu-item a:hover {
+    color: #EE3C20;
+}
+
+.sidebar{
+    background-color: #222222;
+    padding: 60px;
+    margin-top: 80px;
+}
+
+
+
+.sidebar-item{
+    font: 18px Fredoka;
+    color: #FFFFFF;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.drinks-section{
+    margin-top: 80px;
+    padding-left: 60px;
+}
+.line{
+    height: 1px;
+    background-color: #D2D2D2;
+}
+
+.drink-chunk{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.drink{
+    margin: 10px;
+}
+
+.drink-item{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.drink-image{
+    width: 300px;
+}
+
+h1{
+    font: 60px Gelasio;
+}
+
+h2{
+    font: 40px Gelasio;
+}
+
+h3{
+    font: 28px Hammersmith One;
+    color: #EE3C20;
+    padding-bottom: 4px;
+    padding-top: 8px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+h4{
+    font: 18px Hammersmith One;  
+}
+
+p {
+    font: 16px Fredoka;
+}
