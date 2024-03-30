@@ -1,10 +1,5 @@
-.nav{
-    /* [Problem 1] 
-        FIXME: Set the width of the nav class to 85px. */
-    display: flex;
+.nav {
     width: 85px;
-    flex-direction: column;
-    align-items: center;
 }
 .nav--button{
     /*  [Problem 2]
@@ -12,8 +7,7 @@
         are center aligned. */
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    text-align: center;
+    align-items: center;
 }
 .dashboard{
     /*  [Problem 3]
@@ -34,7 +28,9 @@
     /*  [Problem 5]
         FIXME: Use flexbox to make the classes tabs wrap in a 3x2 setup.
         Use flexbox to create equal spacing between each box. */
-
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 .dashboard--classes__box{
     /*  [Problem 6]
@@ -42,8 +38,8 @@
 
         [Problem 7]
         FIXME: Add 35px to the space under each box. (Choose carefully!) */
-
-        
+    width: 31.5%;
+    margin-bottom: 35px;
 }
 /*  [Problem 8]
     FIXME: when the dashboard--classes__box class is hovered over, add a
@@ -51,7 +47,9 @@
 	bcourses interface. Use this: 0 4px 10px rgba(0,0,0,0.35)
 
 	Write your own class identifier. */
-
+.dashboard--classes__box:hover {
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.35);
+}
 
 
 .dashboard--classes__box__image{
@@ -61,7 +59,8 @@
 
     	(Hint: Make sure you only add it to the top left and top
     	right corners. Simply put, the answer is NOT border-radius: 5px.) */
-
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 
 }
 /*  [Problem 10]
@@ -69,14 +68,20 @@
     change the cursor to a pointer. Write the selectors and the styles!
 
     Write your own class identifier. */
-
+.dashboard--classes__box__controls__text h2:hover,
+.dashboard--classes__box__controls__text h3:hover,
+.dashboard--classes__box__controls__text h4:hover {
+        text-decoration: underline;
+        cursor: pointer;
+}
 
 
 .notifications__notifs .notifications__notifs--box{
     /*  [Problem 11]
         FIXME: Turn this element into a flex element and use the correct property
         to align the announcement icon and the text box. */
-        
+    display: flex;
+    align-items: center;    
 
         
 }
