@@ -41,11 +41,11 @@ body{
 
 
 .hero-section {
-    background-image: url('C:/Users/terri/OneDrive/Documents/GitHub/cluurie.github.io/midterm/assets/img/herocoffee.png'); /* Add your image path */
+    background-color: #716330;
     background-size: cover;
     background-position: center;
-    height: 500px; /* Adjust height as needed */
-    color: #ffffff; /* Text color */
+    height: 500px; 
+    color: #ffffff; 
     text-align: center;
     display: flex;
     justify-content: center;
@@ -64,7 +64,7 @@ body{
 }
 
 .content-block {
-    background-color: rgba(34, 34, 34, 0.96); /* Adjust the overlay opacity */
+    background-color: rgba(34, 34, 34, 0.96); 
     padding: 60px;
     display: flex;
     flex-direction: column;
